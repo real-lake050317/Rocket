@@ -1,0 +1,9 @@
+Required infos of telemetry
+
+Speed -> if not available, acc.
+Height -> 기압 계산시 사용 불가능
+Temp -> Outer Temp, Inner Temp
+Time after ignition (in seconds)
+Tilting -> Use Gyro sensors
+Estimated Landing Point
+Error codes
