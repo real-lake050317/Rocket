@@ -7,28 +7,19 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
  
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Thu Nov 17 14:15:10 2022
+# Make data base, printed on Sat Nov 19 10:03:55 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
- 
 ?F = $(notdir $?)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-LC_CTYPE = UTF-8
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
 PLATFORMIO_IDE = 2.5.5
-# environment
-PLATFORMIO_CALLER = vscode
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -48,7 +39,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_CWD = /Users/jinho/Desktop/Research/Anti-Stable-Diffusion
+VSCODE_CWD = /
 # environment
 NO_PROXY = 127.0.0.1
 # environment
@@ -56,7 +47,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ehOizZjmKy/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.zhIFgQv1P6/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -74,9 +65,7 @@ HOME = /Users/jinho
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CLI = 1
-# environment
-VSCODE_CODE_CACHE_PATH = /Users/jinho/Library/Application Support/Code/CachedData/8fa188b2b301d36553cbc9ce1b0a146ccb93351f
+VSCODE_CODE_CACHE_PATH = /Users/jinho/Library/Application Support/Code/CachedData/6261075646f055b99068d3688932416f2346dd3b
 # environment
 LOGNAME = jinho
 # environment
@@ -87,16 +76,14 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 PLATFORMIO_PATH = /Users/jinho/.platformio/penv/bin:/Users/jinho/.platformio/penv:/Users/jinho/.platformio/python3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/jinho/.cargo/bin:/Users/jinho/Library/Application Support/JetBrains/Toolbox/scripts
-# environment
-COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
-# environment
-LC_TERMINAL = iTerm2
+# default
+MAKECMDGOALS := all
 # environment
 PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/jinho/.cargo/bin:/Users/jinho/Library/Application Support/JetBrains/Toolbox/scripts
 # environment
-SHLVL = 3
+SHLVL = 1
 # environment
 XPC_FLAGS = 0x0
 # default
@@ -105,16 +92,10 @@ MAKE_VERSION := 3.81
 USER = jinho
 # makefile
 .DEFAULT_GOAL := 
-# default
-MAKECMDGOALS := all
-# environment
-TERM_SESSION_ID = w0t0p0:174FEBCB-27EF-4C53-863A-76EF02A663C8
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
-# environment
-TERM_PROGRAM = iTerm.app
 # default
 .VARIABLES := 
 # environment
@@ -122,7 +103,7 @@ TMPDIR = /var/folders/sg/m1jk2s1d7f52_1phm8z7stkm0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/jinho/Library/Application Support/Code/1.73.0-main.sock
+VSCODE_IPC_HOOK = /Users/jinho/Library/Application Support/Code/1.73.1-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -131,12 +112,11 @@ MAKEFLAGS = Rrqp
 MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
+ 
+make: *** No rule to make target `all'.  Stop.
+
 # environment
-TERM_PROGRAM_VERSION = 3.4.16
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.15353632.15353638.69931A35-9684-4683-8FF6-CECCBEC2CA5B
-# environment
-LC_TERMINAL_VERSION = 3.4.16
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.16563578.16563584
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -144,11 +124,7 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +F = $(notdir $+)
 # environment
-ITERM_SESSION_ID = w0t0p0:174FEBCB-27EF-4C53-863A-76EF02A663C8
-# environment
 HOMEBREW_REPOSITORY = /opt/homebrew
-# environment
-COLORFGBG = 7;0
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -158,7 +134,7 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
-ITERM_PROFILE = Default
+PLATFORMIO_CALLER = vscode
 # environment
 LC_ALL = C
 # automatic
@@ -172,11 +148,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-TERM = xterm-256color
-# environment
-VSCODE_PID = 97807
+VSCODE_PID = 11760
 # variable set hash-table stats:
-# Load=80/1024=8%, Rehash=0, Collisions=7/101=7%
+# Load=67/1024=7%, Rehash=0, Collisions=3/88=3%
 
 # Pattern-specific Variable Values
 
@@ -184,9 +158,9 @@ VSCODE_PID = 97807
 
 # Directories
 
-# . (device 16777233, inode 4421702): 12 files, no impossibilities.
+# . (device 16777232, inode 4421702): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -258,6 +232,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Nov 17 14:15:10 2022
+# Finished Make data base on Sat Nov 19 10:03:55 2022
 
  
